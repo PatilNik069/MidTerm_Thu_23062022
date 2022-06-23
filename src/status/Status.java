@@ -15,6 +15,7 @@ import java.util.Scanner;
  * change the code to use enums which avoids String input 
  * then print the status details. 
  * @author srinivsi 
+ * @modifier patilnik
  */
 public class Status {
 
@@ -29,5 +30,19 @@ public class Status {
     StausUser t= new StausUser();
     t.statusDetail(code); 
     }
+    
+    enum statusOfApplication // Enums to store all the Possible Outcomes
+    {
+    REJECTED,
+    PENDING,
+    PROCESSING,
+    APPROVED,
+    COMPLETED,
+    NOT_VALID_CODE
+    }
+    
+    
+    
+    
     
 }

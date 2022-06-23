@@ -8,6 +8,7 @@ package status;
 /**
  * MidTerm-Exam
  * @author srinivsi
+ * @modifier patilnik
  */
 public class StausUser 
 {
@@ -25,10 +26,14 @@ switch(code.toUpperCase())
         case "THREE": 
             System.out.println("APPROVED");
         break;
+        case "FOUR":
+            System.out.println("COMPLETED");
+        break;
         default:
          System.out.println("NOT VALID CODE");
         break;
         }
+
 }
  
 }
